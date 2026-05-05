@@ -1,4 +1,5 @@
 # Satellite-Based Maritime Intelligence System
+A computer vision system that analyzes satellite imagery to detect ships, assess traffic density, identify hotspots, and generate actionable maritime intelligence.
 
 > Turning satellite pixels into actionable sea intelligence — one ship at a time.
 
@@ -157,12 +158,19 @@ Arguments
 
 
 ```
+## Results Snapshot
 
+- Total Ships Detected: 12  
+- Traffic Level: High  
+- Traffic Density: Dense  
+- Military Ships: 3  
+- Risk Level: Medium  
+- Hotspot Zones: [(1,0), (2,0)]
 
 
 ---
 
-## Demo
+## Results
 
 ### Detection Output
 ![Detection](assets/detection.png)
