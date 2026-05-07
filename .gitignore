@@ -1,0 +1,17 @@
+# Python cache files
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+
+# YOLO inference outputs
+runs/detect/predict*
+
+# Ignore latest checkpoint
+runs/detect/train/weights/last.pt
+
+# OS-generated junk
+.DS_Store
+Thumbs.db
